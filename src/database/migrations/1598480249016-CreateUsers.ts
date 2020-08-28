@@ -22,7 +22,7 @@ export default class CreateUsers1598480249016 implements MigrationInterface {
             type: 'varchar',
           },
           {
-            name: 'emial',
+            name: 'email',
             type: 'varchar',
             isUnique: true,
           },
@@ -32,7 +32,7 @@ export default class CreateUsers1598480249016 implements MigrationInterface {
             default: 'now()',
           },
           {
-            name: 'update_at',
+            name: 'updated_at',
             type: 'timestamp',
             default: 'now()',
           },
